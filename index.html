@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Style Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form class="survey-form">
+            <h1> Survey Form</h1>     
+            
+                <p>
+                    Feel Free To Answer The Questions Below Based On Your Own Experience And Opinion. If You Are Not Convenient in Answering A Particular Question Please Skip it By Answering "No".  Every Answer Would Be Very Appreciated. Thank You For your Time.
+                </p>
+            <br />
+            
+            <table>
+                <tr>
+                    <td>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                    </td>
+
+                    <td class="sec_column">
+                        <div class="form-group">
+                            <label>
+                                Have You Ever Appered in any coding contest?</label>
+                            <div class="form-group">
+                                <label>
+                                    <input name="gender" type="radio" value="male4" />Yes</label>
+                                <label>
+                                    <input name="gender" type="radio" value="female4" />
+                                    No</label>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="form-group">
+                            <label for="email">Your Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="user@user.com " required>
+                        </div>
+                    </td>
+
+                    <td class="sec_column" style="padding-left: 200px;">
+                        <div class="form-group">
+                            <label for="passion">
+                                Discuss what drives your passion for coding and outline your aspirations in the filed.</label>
+                            <textarea id="passion" cols="20" name="passion" placeholder="Your Aspiration" rows="4"></textarea>
+                        </div>
+                    </td>
+                </tr>
+            
+
+               
+                <tr>
+                    <td>
+                        <div class="form-group">
+                            <label for="number">Your Phone Number</label>
+                            <input id="mobile" name="number" placeholder="9999999999" required="" size="20" type="number" />
+                        </div>
+                    </td>
+
+                    <td  class="sec_column" >
+                        <div class="form-group">
+                            <label for="challenges">
+                                What are some of the challenges you face while coding?</label>
+                            <textarea id="challenges" cols="20" name="challenges" rows="4"></textarea>
+                        </div>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="form-group">
+                            <label>Gender</label>
+                            <div class="form-group">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <label>
+                                                <input type="radio" name="gender" value="male" required>
+                                                Male</label>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <label>
+                                                <input type="radio" name="gender" value="female">
+                                                Female</label>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <label>
+                                                <input type="radio" name="gender" value="other">
+                                                Other</label>
+                                        </td>
+                                    </tr>
+
+                                </table>
+                            </div>
+                        </div>
+                    </td>
+
+                    <td class="sec_column" >
+                        <div class="form-group">
+                            <label>How Would you rate your Proficiency in coding.</label>
+                            <div class="form-group">
+                                <label>
+                                    <input name="gender" required="" type="radio" value="male3" /> Beginer</label>
+                                <label><input name="gender" type="radio" value="female3" /> Intermediate</label>
+                                <label><input name="gender" type="radio" value="other5" />  Advance</label>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                   
+
+             <div class="form-group">
+                <label>  Where Do You Live? </label>              
+                <select id="country" name="country" required >
+                    <option value="">Select...</option>
+                    <option >Andhra Pradesh</option>
+                    <option >Assam</option>
+                    <option >Bihar</option>
+                    <option >Gujarat</option>
+                    <option >Haryana</option>
+                    <option >Himachal Pradesh</option>
+                    <option >Jammu & Kashmir</option>
+                    <option >Karnataka</option>
+                    <option >Kerala</option>
+                    <option >Madhya Pradesh</option>
+                    <option >Maharashtra</option>
+                    <option >Manipurr</option>
+                    <option >Meghalaya</option>
+                    <option >Nagaland</option>
+                    <option >Orissa</option>
+                    <option >Punjab</option>
+                    <option >Rajasthan</option>
+                    <option >Tamil Nadu</option>
+                    <option >Tripura</option>
+                    <option >Uttar Pradesh</option>
+                    <option >West Bengal</option>
+                    <option >Sikkim</option>
+                    <option >Chattisgarh</option>
+                    <option >Jharkhand</option>
+                    <option >Uttarakhand</option>
+                    <option >Telangana</option>
+                    <option >Andaman & Nicobar</option>
+                    <option >Arunachal Pradesh</option>
+                    <option >Chandigarh</option>
+                    <option >Dadra & Nagar Haveli</option>
+                    <option >Delhi</option>
+                    <option >Goa</option>
+                    <option >Lakshadweep</option>
+                    <option >Mizoram</option>
+                    <option >Pondicherry</option>
+                    <option >Daman & Diu</option>
+                    <option >Dadra and Nagar Haveli and Daman Diu</option>
+                    <option >ladakh</option>
+                </select>
+            </div>
+
+                </table>           
+             
+
+            <fieldset style="width: 400px;">
+                <legend style="font: bolder;" class="form-group">Age </legend>
+                <table align="left" style="width: 100%">
+
+                    <tr>
+                        <td align="left" style="width: 30%">
+                            <label><input name="age" required="" type="radio" value="15-20" /> 15-20</label>
+                        </td>
+
+                        <td>
+                            <label> <input name="age" required="" type="radio" value="41-50" /> 41-50</label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label> <input name="age" required="" type="radio" value="20-30" /> 20-30</label>
+                        </td>
+
+                        <td>
+                            <label>
+                                <input name="age" required="" type="radio" value="nots" /> Prefer not to Say </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label><input name="age" required="" type="radio" value="31-40" /> 31-40</label>
+                        </td>
+                    </tr>
+                </table>
+
+            </fieldset>
+            <br />         
+
+           
+
+            <div class="form-group">
+                <label>Interests</label>
+                <div class="form-group-inline">
+                    <label><input type="checkbox" name="interests" value="sports"> Sports</label>
+                    <label><input type="checkbox" name="interests" value="music"> Music</label>
+                    <label><input type="checkbox" name="interests" value="reading"> Reading</label>
+                    <label><input type="checkbox" name="interests" value="traveling"> Traveling</label>
+                    <label><input type="checkbox" name="interests" value="non"> Non-Above </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Your comments"></textarea>
+            </div>     
+            
+           
+            <div class="form-group">
+                 <button type="submit">   Submit Form   </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
